@@ -1,6 +1,6 @@
 # 🧪 Laboratorio-Nuxt
 
-Ambiente de experimentação avançada com **Nuxt v4.3.1**, utilizando **Bun** como runtime e o template oficial com **Nuxt UI**.
+Ambiente de experimentação  com **Nuxt v4.3.1**, utilizando **Bun** como runtime e o template oficial com **Nuxt UI**.
 
 Este repositório funciona como um laboratório técnico para aprofundamento em arquitetura moderna com Nuxt, explorando SSR, composables, gerenciamento de estado e padrões profissionais de organização de código.
 

@@ -1,60 +1,102 @@
-# Nuxt Starter Template
+# 🧪 Laboratorio-Nuxt
 
-[![Nuxt UI](https://img.shields.io/badge/Made%20with-Nuxt%20UI-00DC82?logo=nuxt&labelColor=020420)](https://ui.nuxt.com)
+Ambiente de experimentação avançada com **Nuxt v4.3.1**, utilizando **Bun** como runtime e o template oficial com **Nuxt UI**.
 
-Use this template to get started with [Nuxt UI](https://ui.nuxt.com) quickly.
+Este repositório funciona como um laboratório técnico para aprofundamento em arquitetura moderna com Nuxt, explorando SSR, composables, gerenciamento de estado e padrões profissionais de organização de código.
 
-- [Live demo](https://starter-template.nuxt.dev/)
-- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
+---
 
-<a href="https://starter-template.nuxt.dev/" target="_blank">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png">
-    <img alt="Nuxt Starter Template" src="https://ui.nuxt.com/assets/templates/nuxt/starter-light.png" width="830" height="466">
-  </picture>
-</a>
+## 🚀 Stack Utilizada
 
-> The starter template for Vue is on https://github.com/nuxt-ui-templates/starter-vue.
+- Nuxt 4.3.1
+- Vue 3 (Composition API)
+- TypeScript
+- Nuxt UI
+- Bun (runtime & package manager)
+- Nitro Server
+- SSR
+- TailwindCSS
+- $fetch / useAsyncData
 
-## Quick Start
+---
 
-```bash [Terminal]
-npm create nuxt@latest -- -t github:nuxt-ui-templates/starter
-```
+## 🎯 Objetivo do Laboratório
 
-## Deploy your own
+Este projeto foi criado para explorar profundamente:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-name=starter&repository-url=https%3A%2F%2Fgithub.com%2Fnuxt-ui-templates%2Fstarter&demo-image=https%3A%2F%2Fui.nuxt.com%2Fassets%2Ftemplates%2Fnuxt%2Fstarter-dark.png&demo-url=https%3A%2F%2Fstarter-template.nuxt.dev%2F&demo-title=Nuxt%20Starter%20Template&demo-description=A%20minimal%20template%20to%20get%20started%20with%20Nuxt%20UI.)
+- Criação e organização de composables (`useAuth`, `useApi`, `useCounter`, etc.)
+- Diferença entre estado local (`ref`) e estado global (`useState`)
+- SSR-safe state management
+- Estratégias de cache com `useAsyncData`
+- Estrutura escalável por domínio
+- Separação entre UI e regra de negócio
+- Runtime Config
+- SEO dinâmico com `useHead`
+- Integração com APIs externas
+- Boas práticas de arquitetura em Nuxt 4
 
-## Setup
+Mais do que apenas utilizar o framework, o objetivo é compreender seu funcionamento interno e suas decisões arquiteturais.
 
-Make sure to install the dependencies:
+---
+
+## 🏗 Estrutura Base
+
+
+/components
+/composables
+/pages
+/server
+/utils
+/assets
+
+
+A estrutura evolui conforme novos padrões e testes são implementados.
+
+---
+
+## 🧠 Filosofia do Projeto
+
+Este não é um produto final.
+
+É um ambiente controlado para:
+
+- Testes arquiteturais
+- Simulação de cenários reais
+- Validação de padrões
+- Experimentação com SSR e cache
+- Evolução contínua
+
+---
+
+## ▶️ Como Executar (Bun)
+
+Instalar dependências:
 
 ```bash
-pnpm install
-```
+bun install
 
-## Development Server
+Rodar ambiente de desenvolvimento:
 
-Start the development server on `http://localhost:3000`:
+bun run dev
 
-```bash
-pnpm dev
-```
+A aplicação estará disponível em:
 
-## Production
+http://localhost:3000
 
-Build the application for production:
+Build para produção:
 
-```bash
-pnpm build
-```
+bun run build
 
-Locally preview production build:
+Preview da build:
 
-```bash
-pnpm preview
-```
+bun run preview
+📈 Evolução Contínua
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Novos padrões, testes e estratégias são adicionados conforme o aprofundamento técnico evolui.
+
+Este laboratório representa meu processo estruturado de domínio do Nuxt 4 em ambientes modernos de desenvolvimento.
+
+👨‍💻 Autor
+
+Pedro Prando
+Desenvolvedor focado em arquitetura de sistemas web, SSR e aplicações modernas escaláveis.

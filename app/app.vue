@@ -1,6 +1,7 @@
-<template>
-  <NuxtPage />
-</template>
-
-<script>
+<script setup>
 </script>
+
+<template>
+
+<NuxtPage />
+</template>

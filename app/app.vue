@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <NuxtPage />
+    <NuxtLayout/>
 </template>
